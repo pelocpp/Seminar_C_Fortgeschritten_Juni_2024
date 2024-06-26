@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-extern void test_pointer();
-extern void test_arrays();
-extern void integral_datatypes();
-extern void mainDatatypesVariablesConstants();
-extern void test_structs();
+#include "MyFunctions.h"
 
-void main()
+struct MyStruct aStruct;
+
+int main()
 {
-	test_structs();
+	dynamic_memory();
 
 	return 1;
 }

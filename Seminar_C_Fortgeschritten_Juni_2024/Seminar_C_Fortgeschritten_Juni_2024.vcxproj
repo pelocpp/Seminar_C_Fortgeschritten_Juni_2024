@@ -137,6 +137,7 @@
     <ClCompile Include="Topic_01_Pointer.c" />
     <ClCompile Include="Topic_02_Arrays.c" />
     <ClCompile Include="Topic_03_Structs.c" />
+    <ClCompile Include="Topic_04_Dynamic.c" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png" />
@@ -144,6 +145,9 @@
     <Image Include="..\..\Pointer_02.png" />
     <Image Include="..\..\Pointer_03.png" />
     <Image Include="..\..\Struct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -23,6 +23,15 @@ void printTime(Time* t)
 		t->hours, t->minutes, t->seconds);
 }
 
+void printTimeRevised(const Time * const t)  // lesenden Zugriff
+{
+	// t->seconds = 999;  // falsch
+	// t = t + 1;   // komplett falsch
+
+	printf("Uhrzeit: %02d:%02d:%02d\n",
+		t->hours, t->minutes, t->seconds);
+}
+
 void printTimeEx(Time* t, int index)
 {
 	printf("Uhrzeit: %02d:%02d:%02d\n",
@@ -44,6 +53,18 @@ void resetTime(Time* t)
 	t->hours = 0;
 	t->minutes = 0;
 	t->seconds = 0;
+}
+
+Time mittagspause()
+{
+	Time mittags = { 12, 0, 0 };
+
+	//struct time mittags = { 0, 0, 0 };
+	//mittags.hours = 12;
+	//mittags.minutes = 15;
+	//mittags.seconds = 15;
+
+	return mittags;
 }
 
 void test_structs_01()
@@ -90,7 +111,7 @@ struct zahlen
 
 typedef struct zahlen Zahlen;
 
-void test_structs()
+void test_structs_03()
 {
 	// Ein Vergleich
 
@@ -134,3 +155,21 @@ void test_structs()
 
 	memcpy(&kopie, &wert, sizeof(int));
 }
+
+
+void test_structs_04()
+{
+	Time wannIstMittag = { 0, 0, 0 };
+
+	wannIstMittag = mittagspause();
+
+	printTime(&wannIstMittag);
+}
+
+void test_structs()
+{
+	Time now = { 15, 21, 0 };
+
+	printTimeRevised(&now);
+}
+

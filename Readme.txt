@@ -24,7 +24,9 @@ e) Eindimensionales Array
 
 To be Done:
 
-const
+== const
+
+== String-Literal versus Array.
 
 ==================================================
 
@@ -145,3 +147,108 @@ sizeof: Geht für Variablen und für Typen
 memcpy:  Kopiert Speicherbereiche 
 
 =====================================================
+
+Systemfunktion:
+
+Speicher anfordern: malloc  // memory allocate
+
+Speicher freigeben: free    // memory release
+
+C  Bibliothek:  CRT  // C-Runtime Library
+
+Was liefert malloc zurück:
+
+void *   Zeiger auf Nichts :-)
+
+Antwort: void* ist ein TYPLOSER Zeiger.
+
+VORSICHT: 
+
+
+		*(feld + i) = 2 * i;
+mov         eax,dword ptr [rbp+44h]  
+shl         eax,1  
+movsxd      rcx,dword ptr [rbp+44h]  
+mov         rdx,qword ptr [feld]  
+mov         dword ptr [rdx+rcx*4],eax  
+
+		// besser:
+		feld[i] = 2 * i;
+mov         eax,dword ptr [rbp+44h]  
+shl         eax,1  
+movsxd      rcx,dword ptr [rbp+44h]  
+mov         rdx,qword ptr [feld]  
+mov         dword ptr [rdx+rcx*4],eax  
+
+======================================================
+
+Frage:
+
+	int* feld = malloc( length * sizeof (int) );  // 5 * 4 = 20
+	if (feld == NULL) {
+
+	    printf("Habe keinen Speicher erhalten");
+	}
+
+Sollte ich bei malloc immer auf Ungleich NULL überprüfen ????
+
+Hmmmm ....
+
+IMHO:  
+
+int* feld = malloc( 100000 * sizeof (int) );  // 100000 int's
+
+Dann bitte auf NULL abfragen ...
+
+calloc vs malloc:  calloc schreibt 0 in den Speicher.
+
+// ==================================================
+
+Stack vs Heap:
+
+Stack:   Lokalen Variablen  <=== in einer Funktion vereinbart
+
+Heap:    Für große Daten    <=== mit malloc !!!
+
+
+// C++:        new // delete
+
+// Java / C#:  new // Garbage Collector
+
+
+Siehe auch
+
+https://github.com/pelocpp/cpp_introduction/blob/master/Cpp_Introduction/Markdown/DynamicMemory.md
+
+=========================================================
+
+Wer gibt frei ??????????????????
+
+NEVER:   "double free"
+
+Beobachtung:
+
+malloc liefert einen Pointer auf einen Speicherbereich am Heap zurück:
+
+===>  Ownership // Besitzer:
+
+
+=========================================================
+
+Donnerstag:
+
+== Mehrdimensionale Arrays
+
+== Beispiel: “Jagged” Arrays
+
+== C und objekt-orientiertes Programmieren
+   Beispiel: Dynamisch langes Feld
+
+Datenstrukturen und Algorithmen
+== Verkettete Liste
+
+
+
+
+
+
