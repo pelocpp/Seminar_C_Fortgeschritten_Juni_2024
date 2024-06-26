@@ -143,3 +143,5 @@ sizeof: Geht für Variablen und für Typen
 =====================================================
 
 memcpy:  Kopiert Speicherbereiche 
+
+=====================================================
