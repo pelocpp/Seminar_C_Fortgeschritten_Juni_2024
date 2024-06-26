@@ -10,6 +10,6 @@ void main()
 	// printf("Hallo Seminar");
 
 	//test_pointer();
-	//test_arrays();
-	mainDatatypesVariablesConstants();
+	test_arrays();
+	//mainDatatypesVariablesConstants();
 }

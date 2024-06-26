@@ -87,3 +87,21 @@ numbers + 1:    1028   // weil int !!! ==> 4 Bytes
 numbers + 2:    102C
 
 numbers + 3:    1030
+
+// =============================================
+
+VORSICHT:
+
+Adresse einer lokalen Variablen oder eines temporären Werts ":
+werte" wird zurückgegeben.
+
+FEHLER // ERROR
+
+Arrays übergeben und zurückgeben:
+
+A) Arrays übergeben:  GEHT - mit der Anfangsadresse
+
+B) Arrays zurückgeben: GEHT NICHT !!!!!!!!!!!!!!!!
+
+// =============================================
+

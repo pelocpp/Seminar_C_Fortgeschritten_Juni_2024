@@ -24,7 +24,7 @@ void test_arrays_02()
 
 	int numbers3[5] = { 1, 2, 3 };
 
-	int numbers4[5];
+	// int numbers4[5];
 
 	int numbers5[5] = { 1 };
 
@@ -83,24 +83,32 @@ void test_arrays_04()
 	initArray(anotherNumbers, sizeof (anotherNumbers) / sizeof(int) );
 }
 
+// =========================================================================
 
-void test_arrays_05()
+
+//int* berechneWerte()
+//{
+//    int werte[5] = { 1, 2, 3, 4, 5 };
+//
+//    int* anfang = werte;
+//
+//    return werte;
+//}
+//
+//void test_arrays()
+//{
+//    int* ptr;
+//
+//    ptr = berechneWerte();
+//
+//    for (int i = 0; i < 5; i++) {
+//        printf("Wert an der Stelle %d:  %d\n", i, ptr[i]);
+//    }
+//}
+
+void test_arrays()
 {
-    int numbers[5] = { 0 };  // Es wird Speicher reserviert (Array)
-    // Es wird ein Feld angelegt
-
-    size_t anzahlBytes = sizeof(numbers);
-    printf("sizeof: %zu Bytes\n", anzahlBytes);
-
-    initArray(numbers, 5);
-    // ist identisch zu
-    initArray(&numbers[0], 5);
-
-    int anotherNumbers[10] = { 0 };
-
-    initArray(anotherNumbers, sizeof(anotherNumbers) / sizeof(int));
 }
-
 
 // =============================================================================
 
