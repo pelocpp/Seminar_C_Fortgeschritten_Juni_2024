@@ -18,7 +18,8 @@
     <None Include="..\angenda_c_fortgeschritten.pdf" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\Readme.txt" />
+    <Text Include="..\Readme_01_Mittwoch.txt" />
+    <Text Include="..\Readme_02_Donnerstag.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Topic_01_Pointer.c">

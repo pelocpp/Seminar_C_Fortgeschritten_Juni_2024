@@ -1,5 +1,7 @@
 Peter Loos
 
+peter.loos@gmx.de
+
 30+ Jahre
 
 C/C++  Java C# Mobile Progr.

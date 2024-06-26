@@ -83,7 +83,6 @@ void dynamic_memory_04()
 		tueWasMitDynamischAllokSpeicher(feld, length);
 	}
 
-
 }
 
 
