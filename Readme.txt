@@ -105,3 +105,41 @@ B) Arrays zurückgeben: GEHT NICHT !!!!!!!!!!!!!!!!
 
 // =============================================
 
+Es ginge ÄHNLICH, aber eben anders:
+
+i)  Dyn. Speicherverwaltung
+
+ii) Mit Übergabe eines "leeren" Arrays, das im Unterprogramm gefüllt wird.
+
+// =============================================
+
+Struktur:
+
+Zusammenfassung mehrerer Daten (unterschiedlichen Datentyps)
+zu einer Einheit / zu einem "Ganzen"
+
+
+Operator-Vorrang:  operator precedence
+
+"Punkt-vor-Strich"   :)
+
+// =====================================================
+
+Vergleich Strukturen und Felder
+===============================
+
+Es gibt hier Asymmetrien // Ungleichheiten
+
+Strukturen: Wertzuweisung geht
+
+Felder:     Wertzuweisung geht nicht
+
+// Arrays in Strukturen: Gehen, es gibt hier keine Ausnahme.
+
+=====================================================
+
+sizeof: Geht für Variablen und für Typen
+
+=====================================================
+
+memcpy:  Kopiert Speicherbereiche 

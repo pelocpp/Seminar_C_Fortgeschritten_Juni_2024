@@ -4,12 +4,11 @@ extern void test_pointer();
 extern void test_arrays();
 extern void integral_datatypes();
 extern void mainDatatypesVariablesConstants();
+extern void test_structs();
 
 void main()
 {
-	// printf("Hallo Seminar");
+	test_structs();
 
-	//test_pointer();
-	test_arrays();
-	//mainDatatypesVariablesConstants();
+	return 1;
 }

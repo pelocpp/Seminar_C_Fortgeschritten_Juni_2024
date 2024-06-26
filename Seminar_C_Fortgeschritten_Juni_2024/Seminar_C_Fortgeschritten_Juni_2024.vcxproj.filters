@@ -30,5 +30,25 @@
     <ClCompile Include="Topic_02_Arrays.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Topic_03_Structs.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Arrays.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\Pointer.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\Pointer_02.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\Pointer_03.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\Struct.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -86,31 +86,72 @@ void test_arrays_04()
 // =========================================================================
 
 
-//int* berechneWerte()
-//{
-//    int werte[5] = { 1, 2, 3, 4, 5 };
-//
-//    int* anfang = werte;
-//
-//    return werte;
-//}
-//
-//void test_arrays()
-//{
-//    int* ptr;
-//
-//    ptr = berechneWerte();
-//
-//    for (int i = 0; i < 5; i++) {
-//        printf("Wert an der Stelle %d:  %d\n", i, ptr[i]);
-//    }
-//}
-
-void test_arrays()
+int* berechneWerte_dieErste()
 {
+    int werte[5] = { 1, 2, 3, 4, 5 };
+
+    int* anfang = werte;
+
+    return werte;
+}
+
+void test_arrays_05()
+{
+    int* ptr;
+
+    ptr = berechneWerte_dieErste();
+
+    for (int i = 0; i < 5; i++) {
+        printf("Wert an der Stelle %d:  %d\n", i, ptr[i]);
+    }
+}
+
+void test_arrays_06()
+{
+    int numbers[5] = { 1, 2, 3, 4, 5 };
+
+    for (int i = 0; i < 5; i++) {
+        printf("%d\n", numbers[i]);
+    }
+
+    // ist identisch zu:
+
+    int i = 0;
+    while (i < 5) {
+        printf("%d\n", numbers[i]);
+        i++;
+    }
 }
 
 // =============================================================================
+
+
+void berechneWerte_soGehts(int* result)
+{
+    // das wurde berechnet
+    int werte[5] = { 1, 2, 3, 4, 5 };
+
+    // Ergebnis zum Aufrufer zurückbringen
+    // C: Es gibt KEIN Feld-Kopieren Anweisung
+    // result = werte;  // Das ist eine Wertzuweisung einer ADRESSE: FAlsch.
+
+    for (int i = 0; i < 5; i++) {
+        result[i] = werte[i];
+    }
+
+}
+
+void test_arrays()
+{
+    int leeresFeld[5];
+
+    berechneWerte_soGehts(leeresFeld);
+
+    for (int i = 0; i < 5; i++) {
+        printf("Stelle % d: % d\n", i, leeresFeld[i]);
+    }
+}
+
 
 // ===========================================================================
 // DatatypesVariablesConstants.c // Datatypes, Variables and Constants
