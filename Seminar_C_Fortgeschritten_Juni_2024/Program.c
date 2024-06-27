@@ -6,7 +6,7 @@ struct MyStruct aStruct;
 
 int main()
 {
-	jagged_array();
+	test_strings();
 
-	return 1;
+	return 123;
 }

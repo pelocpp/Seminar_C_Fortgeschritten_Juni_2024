@@ -14,5 +14,6 @@ extern void dynamic_memory();
 extern void mainMultidimensionalArrays();
 extern void test_linked_list();
 extern void jagged_array();
+extern void test_strings();
 
 extern void exercise_pascal();

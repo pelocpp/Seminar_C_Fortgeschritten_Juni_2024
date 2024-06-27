@@ -49,6 +49,9 @@
     <ClCompile Include="Topic_07_JaggedArray.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Topic_08_Zeichenketten.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png">

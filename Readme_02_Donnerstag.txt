@@ -169,3 +169,13 @@ Lösung:
 Eigentlich hilft da nur ein ZWEITES Array,
 in dem die Längen pro Zeile drin steht.
 
+===========================================
+
+# Hashtag  // Kanalgitter
+
+Zeilen, die mit # anfangen:
+
+C Compiler NICHT ZU SEHEN:
+
+==>  Präprozessor:   Textersetzung
+

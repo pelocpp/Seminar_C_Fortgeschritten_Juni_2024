@@ -143,6 +143,7 @@
     <ClCompile Include="Topic_05_MultiDimArray.c" />
     <ClCompile Include="Topic_06_LinkedList.c" />
     <ClCompile Include="Topic_07_JaggedArray.c" />
+    <ClCompile Include="Topic_08_Zeichenketten.c" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png" />

@@ -126,7 +126,7 @@ void was_schmutziges()
 {
 	int* ptr = malloc(6 * sizeof (int));  // 24
 
-	printf("Anzahl Bytes: %d\n", sizeof (ptr));
+	printf("Anzahl Bytes: %zu\n", sizeof (ptr));
 	printf("Anzahl Bytes: %d\n", ptr[-1]);
 	printf("Anzahl Bytes: %d\n", ptr[-2]);
 	printf("Anzahl Bytes: %d\n", ptr[-3]);
