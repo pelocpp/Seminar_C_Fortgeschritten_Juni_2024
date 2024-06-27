@@ -134,6 +134,7 @@
     <Text Include="..\Readme_02_Donnerstag.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Exercise_01_Pascal.c" />
     <ClCompile Include="Program.c" />
     <ClCompile Include="Topic_01_Pointer.c" />
     <ClCompile Include="Topic_02_Arrays.c" />

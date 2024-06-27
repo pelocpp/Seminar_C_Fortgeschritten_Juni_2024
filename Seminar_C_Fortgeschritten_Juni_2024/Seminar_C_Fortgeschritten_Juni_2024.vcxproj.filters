@@ -40,6 +40,9 @@
     <ClCompile Include="Topic_05_MultiDimArray.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise_01_Pascal.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png">

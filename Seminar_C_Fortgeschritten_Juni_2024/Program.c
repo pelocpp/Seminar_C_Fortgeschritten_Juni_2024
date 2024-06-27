@@ -6,7 +6,7 @@ struct MyStruct aStruct;
 
 int main()
 {
-	mainMultidimensionalArrays();
+	exercise_pascal();
 
 	return 1;
 }
