@@ -179,3 +179,23 @@ C Compiler NICHT ZU SEHEN:
 
 ==>  Präprozessor:   Textersetzung
 
+===========================================
+
+Hash-Tabelle
+
+Dateien und Ein-/Ausgabe:
+    OBJ-File Viewer
+
+Funktionszeiger
+
+Beispiel: Dynamisch langes Feld
+
+
+==> 15, 15.15:  Berlin
+
+==> Nach / ab 15, 15.15.
+
+===========================================
+
+
+
