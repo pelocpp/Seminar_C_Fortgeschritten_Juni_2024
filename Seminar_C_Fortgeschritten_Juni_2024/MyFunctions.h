@@ -12,5 +12,6 @@ extern void mainDatatypesVariablesConstants();
 extern void test_structs();
 extern void dynamic_memory();
 extern void mainMultidimensionalArrays();
+extern void test_linked_list();
 
 extern void exercise_pascal();

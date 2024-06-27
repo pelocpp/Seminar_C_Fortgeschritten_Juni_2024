@@ -6,7 +6,7 @@ struct MyStruct aStruct;
 
 int main()
 {
-	exercise_pascal();
+	test_linked_list();
 
 	return 1;
 }
