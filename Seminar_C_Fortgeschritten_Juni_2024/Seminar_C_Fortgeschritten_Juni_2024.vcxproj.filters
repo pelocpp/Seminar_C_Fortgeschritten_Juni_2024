@@ -46,6 +46,9 @@
     <ClCompile Include="Topic_06_LinkedList.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Topic_07_JaggedArray.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png">
@@ -63,9 +66,24 @@
     <Image Include="..\..\Struct.png">
       <Filter>Ressourcendateien</Filter>
     </Image>
+    <Image Include="..\..\Heap_01.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\Heap_02.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\LinkedList.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\Pascal_01.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyFunctions.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

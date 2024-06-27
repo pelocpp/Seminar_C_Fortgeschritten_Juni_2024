@@ -6,7 +6,7 @@ struct MyStruct aStruct;
 
 int main()
 {
-	test_linked_list();
+	jagged_array();
 
 	return 1;
 }

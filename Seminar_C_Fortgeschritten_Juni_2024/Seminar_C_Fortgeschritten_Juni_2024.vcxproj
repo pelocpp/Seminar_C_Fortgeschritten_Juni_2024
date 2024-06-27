@@ -142,15 +142,21 @@
     <ClCompile Include="Topic_04_Dynamic.c" />
     <ClCompile Include="Topic_05_MultiDimArray.c" />
     <ClCompile Include="Topic_06_LinkedList.c" />
+    <ClCompile Include="Topic_07_JaggedArray.c" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png" />
+    <Image Include="..\..\Heap_01.png" />
+    <Image Include="..\..\Heap_02.png" />
+    <Image Include="..\..\LinkedList.png" />
+    <Image Include="..\..\Pascal_01.png" />
     <Image Include="..\..\Pointer.png" />
     <Image Include="..\..\Pointer_02.png" />
     <Image Include="..\..\Pointer_03.png" />
     <Image Include="..\..\Struct.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="MyFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

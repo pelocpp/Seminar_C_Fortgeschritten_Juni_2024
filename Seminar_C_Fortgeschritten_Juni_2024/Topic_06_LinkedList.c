@@ -6,25 +6,15 @@
 #include <stdlib.h>
 #include <crtdbg.h>
 
-// Rekursive Definition
-struct list_item
-{
-	int               data;   // Daten eines Knotens
-	struct list_item* next;   // Zeiger auf das nächste List Item
-};
+#include "LinkedList.h"
 
-typedef struct list_item ListItem;
+// functions prototypes
+void test_linked_list_01();
+void test_linked_list_02();
+void test_linked_list_03();
+void test_linked_list_04();
 
-// Anker // Erstes Element // Root // Wurzel
-struct list_anchor
-{
-	ListItem* root;
-	int       count;
-};
-
-typedef struct list_anchor ListAnchor;
-
-// Heap
+// implementation
 void test_linked_list_01()
 {
 	ListAnchor anchor = { NULL, 0 };
@@ -107,10 +97,27 @@ void test_linked_list_02()
 // printList
 // releaseList    // free
 
-void insertItemAtBegin(ListAnchor* anchor, int data);
-void insertItemAtBeginEx(ListAnchor* anchor, int data);
-void printList(ListAnchor* anchor);
-void releaseList(ListAnchor* anchor);
+
+int contains(ListAnchor* anchor, int value)
+{
+	ListItem* ptr = anchor->root;
+
+	while (ptr != NULL)
+	{
+		if (ptr->data == value) {
+			return 1;  // 1 == true
+		}
+
+		ptr = ptr->next;
+	}
+
+	return 0;  // 0 == false
+}
+
+int count(ListAnchor* anchor)
+{
+	return anchor->count;
+}
 
 void insertItemAtBegin(ListAnchor* anchor, int d)
 {
@@ -194,10 +201,33 @@ void test_linked_list_03()
 	printList(&anchor);
 
 	releaseList(&anchor);
+}
 
+void test_linked_list_04()
+{
+	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+
+	ListAnchor anchor = { NULL, 0 };
+
+	insertItemAtBegin(&anchor, 1);
+	insertItemAtBegin(&anchor, 2);
+	insertItemAtBegin(&anchor, 3);
+	insertItemAtBegin(&anchor, 4);
+	insertItemAtBegin(&anchor, 5);
+	insertItemAtBegin(&anchor, 6);
+
+	printList(&anchor);
+
+	int exists = contains(&anchor, 3);
+	printf("3 found: %d\n", exists);
+
+	exists = contains(&anchor, 30);
+	printf("30 found: %d\n", exists);
+
+	releaseList(&anchor);
 }
 
 void test_linked_list()
 {
-	test_linked_list_03();
+	test_linked_list_04();
 }
