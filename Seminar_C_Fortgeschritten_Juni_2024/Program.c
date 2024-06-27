@@ -6,7 +6,7 @@ struct MyStruct aStruct;
 
 int main()
 {
-	dynamic_memory();
+	mainMultidimensionalArrays();
 
 	return 1;
 }

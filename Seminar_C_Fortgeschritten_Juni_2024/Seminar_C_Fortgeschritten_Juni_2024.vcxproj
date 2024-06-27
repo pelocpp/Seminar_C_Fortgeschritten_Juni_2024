@@ -139,6 +139,7 @@
     <ClCompile Include="Topic_02_Arrays.c" />
     <ClCompile Include="Topic_03_Structs.c" />
     <ClCompile Include="Topic_04_Dynamic.c" />
+    <ClCompile Include="Topic_05_MultiDimArray.c" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png" />
