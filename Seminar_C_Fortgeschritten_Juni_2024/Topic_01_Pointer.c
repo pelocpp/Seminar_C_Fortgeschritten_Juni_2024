@@ -56,3 +56,5 @@ void test_pointer()
 	malZweiEx(&x);
 	printf("x=%d\n", x);
 }
+
+// Ende.

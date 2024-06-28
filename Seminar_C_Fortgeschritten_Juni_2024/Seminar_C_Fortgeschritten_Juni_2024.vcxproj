@@ -146,6 +146,9 @@
     <ClCompile Include="Topic_07_JaggedArray.c" />
     <ClCompile Include="Topic_09_Hashtabelle.c" />
     <ClCompile Include="Topic_08_Zeichenketten.c" />
+    <ClCompile Include="Topic_10_Function_Pointer.c" />
+    <ClCompile Include="Topic_11_Files.c" />
+    <ClCompile Include="Topic_12_Verschiedenes.c" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png" />

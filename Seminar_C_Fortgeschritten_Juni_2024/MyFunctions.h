@@ -17,3 +17,7 @@ extern void jagged_array();
 extern void test_strings();
 extern void test_hash_table();
 extern void exercise_pascal();
+extern void test_files();
+extern void bitfields();
+extern void unions();
+extern void test_function_pointer();

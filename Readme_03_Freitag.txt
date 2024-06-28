@@ -111,3 +111,28 @@ C:\Peter_Loos_C_Seminar\Seminar_C_Fortgeschritten_Juni_2024\Seminar_C_Fortgeschr
 C:\Peter_Loos_C_Seminar\Seminar_C_Fortgeschritten_Juni_2024\Seminar_C_Fortgeschritten_Juni_2024\Topic_09_Hashtabelle.c(67) : {80} normal block at 0x000001279441DE30, 40 bytes long.
  Data: <Susi            > 53 75 73 69 00 FE FE FE FE FE FE FE FE FE FE FE 
 Object dump complete.
+
+================================================================
+
+FILE
+
+Erste Zeile
+
+
+D  13  == Carriage Return    // Schreibmaschine: Wagenrücklauf
+
+                             // Gehe an den Anfang der Zeile
+
+A  10  == Line Feed          // neuen Zeile
+
+
+C: Zwischen den Datentypen char und int gibt es eine Symbiose / Typumwandlung:
+
+char => int  : ASCII - Code
+
+int => char:   Der dem int-Wert entsprechende ASCII-Code wird als Zeichen genommen
+
+
+===========================================================
+Ende
+===========================================================

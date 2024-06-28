@@ -56,6 +56,15 @@
     <ClCompile Include="Topic_09_Hashtabelle.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Topic_10_Function_Pointer.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Topic_11_Files.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Topic_12_Verschiedenes.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\Arrays.png">
