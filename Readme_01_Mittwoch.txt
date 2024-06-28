@@ -31,6 +31,19 @@ https://github.com/pelocpp/Seminar_C_Fortgeschritten_Juni_2024
 
 ==================================================
 
+Literatur-Empfehlung:
+
+"C Traps and Pitfalls"
+Andrew Koenig
+
+"Ruminations on C++"
+Andrew Koenig
+
+
+==================================================
+
+
+
 a) Was sind meine Erwartungen
 
 b) Was MUSS drin sein
