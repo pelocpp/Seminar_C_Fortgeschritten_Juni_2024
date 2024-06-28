@@ -20,6 +20,7 @@
   <ItemGroup>
     <Text Include="..\Readme_01_Mittwoch.txt" />
     <Text Include="..\Readme_02_Donnerstag.txt" />
+    <Text Include="..\Readme_03_Freitag.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Topic_01_Pointer.c">
@@ -50,6 +51,9 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="Topic_08_Zeichenketten.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Topic_09_Hashtabelle.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

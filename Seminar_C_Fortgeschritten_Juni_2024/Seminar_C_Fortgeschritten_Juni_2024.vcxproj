@@ -132,6 +132,7 @@
   <ItemGroup>
     <Text Include="..\Readme_01_Mittwoch.txt" />
     <Text Include="..\Readme_02_Donnerstag.txt" />
+    <Text Include="..\Readme_03_Freitag.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Exercise_01_Pascal.c" />
@@ -143,6 +144,7 @@
     <ClCompile Include="Topic_05_MultiDimArray.c" />
     <ClCompile Include="Topic_06_LinkedList.c" />
     <ClCompile Include="Topic_07_JaggedArray.c" />
+    <ClCompile Include="Topic_09_Hashtabelle.c" />
     <ClCompile Include="Topic_08_Zeichenketten.c" />
   </ItemGroup>
   <ItemGroup>

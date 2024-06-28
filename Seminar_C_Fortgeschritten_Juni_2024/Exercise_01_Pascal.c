@@ -1,5 +1,7 @@
 // Übung Pascal-Dreieck
 
+#include <stdio.h>
+
 // Siehe zum Beispiel:
 
 // https://www.w3resource.com/c-programming-exercises/for-loop/c-for-loop-exercises-33.php

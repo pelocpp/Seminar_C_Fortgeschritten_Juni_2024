@@ -1,6 +1,9 @@
+========================================================
+
 Peter Loos
 
 peter.loos@gmx.de
+-----------------
 
 30+ Jahre
 
@@ -11,6 +14,20 @@ Back to the Roots: C/C++
 a) Visual Studio 
 
 b) Github
+
+https://github.com/pelocpp
+
+C Introduction:
+
+https://github.com/pelocpp/c_introduction
+
+Unser Seminar:
+
+Seminar_C_Fortgeschritten_Juni_2024
+
+https://github.com/pelocpp/Seminar_C_Fortgeschritten_Juni_2024
+
+===> 3-4 Wochen
 
 ==================================================
 

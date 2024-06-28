@@ -6,7 +6,7 @@ struct MyStruct aStruct;
 
 int main()
 {
-	test_strings();
+	test_hash_table();
 
 	return 123;
 }
